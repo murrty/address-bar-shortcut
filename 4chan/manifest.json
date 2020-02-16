@@ -1,18 +1,18 @@
 {
 	"applications": {
 		"gecko": {
-            "id": "@address.bar.shortcut.reddit"
+			"id": "@address.bar.shortcut.4chan"
 		}
 	},
 	"developer":        {
 		"name": "Jakob Shoptaw, murrty",
-		"url":  "https://github.com/murrty/"
+		"url":  "https://github.com/jshoptaw/address-bar-subreddit-shortcut/"
 	},
 	"author":           "Jakob Shoptaw, murrty",
 	"homepage_url":     "https://github.com/murrty/address-bar-shortcut",
-	"description":      "Directly connect to a subreddit by using \"r\\\" and the sub in the URL bar. Same thing applies to users, but instead of \"r\", it's \"u\"",
+	"description":      "Directly connect to a 4chan board by using \"b\\\" and the board in the URL bar.",
 	"manifest_version": 2,
-	"name":             "Address Bar Subreddit Shortcut",
+	"name":             "Address Bar Board Shortcut",
 	"version":          "1.1",
 	"icons":            {
 		"48": "icon/48.png",
