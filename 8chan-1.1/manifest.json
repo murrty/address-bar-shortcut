@@ -1,0 +1,33 @@
+{
+	"applications": {
+		"gecko": {
+			"id": "@address.bar.shortcut.8chan"
+		}
+	},
+	"developer":        {
+		"name": "Jakob Shoptaw, murrty",
+		"url":  "https://github.com/jshoptaw/address-bar-subreddit-shortcut/"
+	},
+	"author":           "Jakob Shoptaw, murrty",
+	"homepage_url":     "https://github.com/murrty/address-bar-shortcut",
+	"description":      "Directly connect to a 8chan board by using \"b\\\" and the board in the URL bar.",
+	"manifest_version": 2,
+	"name":             "Address Bar Board Shortcut",
+	"version":          "1.1",
+	"icons":            {
+		"48": "icon/48.png",
+		"96": "icon/96.png"
+	},
+
+	"permissions": [
+		"webNavigation",
+		"tabs"
+	],
+ 
+	"background": {
+		"scripts": [
+			"redir.js"
+		]
+	}
+
+}
