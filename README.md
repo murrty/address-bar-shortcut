@@ -1,3 +1,5 @@
+ARCHIVED in favor of https://github.com/murrty/address-bar-shortcuts
+
 Address Bar Shortcut
 ====================
 
